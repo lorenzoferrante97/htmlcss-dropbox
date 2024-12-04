@@ -138,6 +138,14 @@ a.link-accent {
 
 /* --- css --- */
 
+/* header box */
+.header-box {
+    flex-basis: 48%;
+}
+.logo-box {
+    max-width: 92px;
+}
+
 /* nav links */
 .header-nav ul li {
     display: inline-block;
