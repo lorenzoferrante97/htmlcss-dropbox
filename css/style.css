@@ -198,7 +198,10 @@ a.link-accent {
 }
 .container-default {
     max-width: 60%;
-    margin: 0 auto;
+    margin: 0px auto;
+}
+.section-spacing {
+    padding-top: 140px;
 }
 
 /* header */
@@ -257,7 +260,6 @@ header {
  /* pricing section */
  #pricing {
     gap: 48px;
-    padding-top: 140px;
  }
  .pricing-box {
     gap: 32px 4%;
