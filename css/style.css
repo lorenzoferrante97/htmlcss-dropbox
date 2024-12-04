@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
+:root {
+    /* colors */
+    --color-accent: #3984ff;
+    --color-black: #1e1919;
+    --color-grey: #a9a3a3;
+    --color-white: #f7f5f2;
+    --color-accent-light: #b8d3ff;
+
+    /* fonts */
+    --font-l: 40px;
+    --font-m: 28px;
+    --font-default: 16px;
+    --font-s: 14px;
+    --font-xs: 12px;
+
+    --font-w-l: 700;
+    --font-w-m: 500;
+    --font-w-default: 300;
+
+    --font-lh-body: 140%;
+    --font-lh-headings: 125%;
+}
+
 /* reset */
 * {
     margin: 0;
