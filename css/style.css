@@ -52,6 +52,22 @@ html {
 
 
 
+/* flex rules */
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.perfect-center {
+    justify-content: center;
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+}
+
+
 /* --- Stili generali --- */
 h1, h2, h3 {
     line-height: var(--font-lh-headings);
