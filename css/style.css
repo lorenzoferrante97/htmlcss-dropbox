@@ -256,13 +256,16 @@ header {
     gap: 48px;
     padding-top: 140px;
  }
+ .pricing-box {
+    gap: 4%;
+ }
 
 /* card */
 .card {
     border: 1px solid var(--color-grey);
 }
 #pricing .card {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc((100% / 3) - 4%);
 }
  /* pricing card styles */
  .card-feature {
