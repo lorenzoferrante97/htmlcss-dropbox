@@ -11,7 +11,7 @@
     --color-accent-light: #e2edff;
 
     /* fonts */
-    --font-xl: 40px;
+    --font-xl: 56px;
     --font-l: 28px;
     --font-m: 20px;
     --font-default: 16px;
@@ -24,6 +24,8 @@
 
     --font-lh-body: 140%;
     --font-lh-headings: 125%;
+
+    --headings-margin-bottom: 20px;
 }
 
 /* reset */
@@ -84,6 +86,7 @@ html {
 h1, h2, h3 {
     line-height: var(--font-lh-headings);
     color: var(--color-black);
+    margin-bottom: var(--headings-margin-bottom);
 }
 h1 {
     font-size: var(--font-xl);
@@ -180,4 +183,7 @@ header {
 /* hero */
 #hero {
     background-color: var(--color-accent-light);
+}
+#hero button {
+    display: block;
 }
