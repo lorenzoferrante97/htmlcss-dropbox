@@ -69,11 +69,14 @@ h3 {
     font-size: var(--font-m);
     font-weight: var(--font-w-m);
 }
-p {
+p, a {
     font-size: var(--font-default);
     font-weight: var(--font-w-default);
     line-height: var(--font-lh-body);
     color: var(--color-darkgrey);
+}
+a {
+    color: var(--color-black);
 }
 .text-small {
     font-size: var(--font-s);
