@@ -310,3 +310,13 @@ header {
  .card-feature .fa-check {
     color: var(--color-accent);
  }
+
+
+ /* dropbox partner */
+ #dropbox-partner figure {
+    flex-basis: 52%;
+ }
+ #dropbox-partner > div {
+    flex-basis: 44%;
+    gap: 20px;
+ }
