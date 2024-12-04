@@ -285,6 +285,10 @@ header {
  .card-info {
     gap: 12px;
  }
+ /* top info box of pricing card */
+ #pricing .card-info {
+    flex-basis: 100px;
+ }
  /* card feature check icons */
  .card-feature .fa-check {
     color: var(--color-accent);
