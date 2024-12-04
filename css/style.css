@@ -121,7 +121,7 @@ a {
 
 /* button */
 button {
-    padding: 4px 12px;
+    padding: 8px 16px;
 }
 button.btn-primary {
     font-size: var(--font-default);
@@ -183,7 +183,23 @@ header {
 /* hero */
 #hero {
     background-color: var(--color-accent-light);
+    padding-top: 40px;
 }
 #hero button {
     display: block;
+}
+/* hero info box */
+.info-box {
+    gap: 24px;
+}
+/* first hero button */
+.info-box div button:nth-child(1) {
+    margin-bottom: 12px;
+}
+/* scrool down icon */
+.scroll-down {
+    margin-top: 40px;
+}
+.scroll-down i {
+    font-size: 40px;
 }
