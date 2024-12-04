@@ -134,3 +134,12 @@ a.link-accent {
     aspect-ratio: 1;
     background-color: var(--color-white);
 }
+
+
+/* --- css --- */
+
+/* nav links */
+.header-nav ul li {
+    display: inline-block;
+    padding: 4px 8px;
+}
