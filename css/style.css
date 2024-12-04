@@ -6,7 +6,8 @@
     --color-black: #1e1919;
     --color-darkgrey: #494545;
     --color-grey: #a9a3a3;
-    --color-white: #f7f5f2;
+    --color-lightgrey: #f7f5f2;
+    --color-white: #ffffff;
     --color-accent-light: #b8d3ff;
 
     /* fonts */
@@ -43,6 +44,11 @@ img {
 a {
     text-decoration: none;
 }
+/* reset button */
+button {
+    border: none;
+    background-color: var(--color-white);
+}
 
 
 
@@ -65,6 +71,12 @@ html {
 }
 .between {
     justify-content: space-between;
+}
+.align-i-center {
+    align-items: center;
+}
+.main-ax-flex-end {
+    justify-content: flex-end;
 }
 
 
@@ -108,13 +120,13 @@ a {
 button {
     padding: 4px 12px;
 }
-button.primary {
+button.btn-primary {
     font-size: var(--font-default);
     font-weight: var(--font-w-default);
     background-color: var(--color-accent);
     color: var(--color-white);
 }
-button.ghost {
+button.btn-ghost {
     border: 1px solid var(--color-black);
 }
 /* link */
@@ -138,9 +150,14 @@ a.link-accent {
 
 /* --- css --- */
 
-/* header box */
+/* header */
+header {
+    padding: 8px;
+    border-bottom: 1px solid var(--color-lightgrey);
+}
 .header-box {
     flex-basis: 48%;
+    gap: 8px;
 }
 .logo-box {
     max-width: 92px;
