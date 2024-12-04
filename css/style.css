@@ -144,17 +144,28 @@ a.link-accent {
 }
 
 /* radio input */
+.radio-input {
+    gap: 40px;
+}
+.radio-input > div {
+    gap: 4px;
+}
 .radio.selector {
     width: 20px;
     aspect-ratio: 1;
-    background-color: var(--color-accent);
+    background-color: var(--color-white);
     padding: 4px;
     border-radius: 50%;
+    border: 1px solid var(--color-grey);
+}
+.radio.selector.active {
+    background-color: var(--color-accent);
+    border: none;
 }
 .radio.selector .selected {
     width: 100%;
     aspect-ratio: 1;
-    background-color: var(--color-white);
+    background-color: var(--color-lightgrey);
     border-radius: 50%;
 }
 
@@ -222,4 +233,10 @@ header {
  #hero figure, .info-box {
     position: relative;
     top: 40px;
+ }
+
+ /* pricing section */
+ #pricing {
+    gap: 48px;
+    padding-top: 140px;
  }
