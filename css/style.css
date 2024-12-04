@@ -259,7 +259,7 @@ header {
  /* pricing card styles */
  .card-feature {
     padding: 8px 0;
-    gap: 4px;
+    gap: 8px;
     color: var(--color-darkgrey);
  }
  .card-feature.target {
