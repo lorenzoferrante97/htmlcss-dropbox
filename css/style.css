@@ -86,7 +86,7 @@ html {
 h1, h2, h3 {
     line-height: var(--font-lh-headings);
     color: var(--color-black);
-    margin-bottom: var(--headings-margin-bottom);
+    /* margin-bottom: var(--headings-margin-bottom); */
 }
 h1 {
     font-size: var(--font-xl);
@@ -198,8 +198,17 @@ header {
 }
 /* scrool down icon */
 .scroll-down {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .scroll-down i {
     font-size: 40px;
 }
+/* hero img */
+/* #hero figure {
+    position: relative;
+    top: 40px;
+} */
+ #hero figure, .info-box {
+    position: relative;
+    top: 40px;
+ }
