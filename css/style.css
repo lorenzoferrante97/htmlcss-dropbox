@@ -154,6 +154,8 @@ a.link-accent {
 header {
     padding: 8px;
     border-bottom: 1px solid var(--color-lightgrey);
+    position: sticky;
+    top: 0;
 }
 .header-box {
     flex-basis: 48%;
