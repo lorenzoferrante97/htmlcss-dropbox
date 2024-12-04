@@ -83,6 +83,9 @@ html {
 .stretch {
     align-items: stretch;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 
 
 /* --- Stili generali --- */
@@ -257,7 +260,7 @@ header {
     padding-top: 140px;
  }
  .pricing-box {
-    gap: 4%;
+    gap: 32px 4%;
  }
 
 /* card */
@@ -266,6 +269,14 @@ header {
 }
 #pricing .card {
     flex-basis: calc((100% / 3) - 4%);
+    flex-shrink: 0;
+}
+/* last pricing card (horizontal card) */
+#pricing .card.last {
+    flex-basis: calc(100% - 4%);
+}
+#pricing .card.last .card-content div:nth-child(1) {
+    flex-basis: 60%;
 }
  /* pricing card styles */
  .card-feature {
