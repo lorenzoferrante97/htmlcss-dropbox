@@ -8,7 +8,7 @@
     --color-grey: #a9a3a3;
     --color-lightgrey: #f7f5f2;
     --color-white: #ffffff;
-    --color-accent-light: #b8d3ff;
+    --color-accent-light: #e2edff;
 
     /* fonts */
     --font-xl: 40px;
@@ -150,6 +150,12 @@ a.link-accent {
 
 /* --- css --- */
 
+/* containers */
+.container-default {
+    max-width: 68%;
+    margin: 0 auto;
+}
+
 /* header */
 header {
     padding: 8px;
@@ -169,4 +175,9 @@ header {
 .header-nav ul li {
     display: inline-block;
     padding: 4px 8px;
+}
+
+/* hero */
+#hero {
+    background-color: var(--color-accent-light);
 }
