@@ -160,8 +160,12 @@ a.link-accent {
 /* --- css --- */
 
 /* containers */
-.container-default {
+.container-hero {
     max-width: 68%;
+    margin: 0 auto;
+}
+.container-default {
+    max-width: 60%;
     margin: 0 auto;
 }
 
