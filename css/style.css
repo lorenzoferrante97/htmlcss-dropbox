@@ -80,6 +80,9 @@ html {
 .main-ax-flex-end {
     justify-content: flex-end;
 }
+.stretch {
+    align-items: stretch;
+}
 
 
 /* --- Stili generali --- */
