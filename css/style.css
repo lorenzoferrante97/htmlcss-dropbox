@@ -4,6 +4,7 @@
     /* colors */
     --color-accent: #3984ff;
     --color-black: #1e1919;
+    --color-black-8: rgba(30, 25, 25, 0.08);
     --color-darkgrey: #494545;
     --color-grey: #a9a3a3;
     --color-lightgrey: #f7f5f2;
@@ -210,6 +211,9 @@ header {
     border-bottom: 1px solid var(--color-lightgrey);
     position: sticky;
     top: 0;
+    z-index: 99;
+    background-color: var(--color-white);
+    box-shadow: 8px 0 48px var(--color-black-8);
 }
 .header-box {
     flex-basis: 48%;
