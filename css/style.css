@@ -4,13 +4,15 @@
     /* colors */
     --color-accent: #3984ff;
     --color-black: #1e1919;
+    --color-darkgrey: #494545;
     --color-grey: #a9a3a3;
     --color-white: #f7f5f2;
     --color-accent-light: #b8d3ff;
 
     /* fonts */
-    --font-l: 40px;
-    --font-m: 28px;
+    --font-xl: 40px;
+    --font-l: 28px;
+    --font-m: 20px;
     --font-default: 16px;
     --font-s: 14px;
     --font-xs: 12px;
@@ -40,4 +42,35 @@ img {
 
 html {
     font-family: "Roboto", sans-serif;
+}
+
+
+
+/* --- Stili generali --- */
+h1, h2, h3 {
+    line-height: var(--font-lh-headings);
+    color: var(--color-black);
+}
+h1 {
+    font-size: var(--font-xl);
+    font-weight: var(--font-w-l);
+}
+h2 {
+    font-size: var(--font-l);
+    font-weight: var(--font-w-m);
+}
+h3 {
+    font-size: var(--font-m);
+    font-weight: var(--font-w-m);
+}
+p {
+    font-size: var(--font-default);
+    font-weight: var(--font-w-default);
+    line-height: var(--font-lh-body);
+    color: var(--color-darkgrey);
+}
+.text-small {
+    font-size: var(--font-s);
+    font-weight: var(--font-w-default);
+    line-height: var(--font-lh-body);
 }
