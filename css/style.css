@@ -320,3 +320,15 @@ header {
     flex-basis: 44%;
     gap: 20px;
  }
+
+ /* benefits section */
+
+ /* benefit box */
+ .benefit-box {
+    margin-top: 40px;
+    gap: 40px 4%;
+ }
+ .benefit-box > div {
+    flex-basis: calc((100% / 3) - 4%);
+    gap: 20px;
+ }
