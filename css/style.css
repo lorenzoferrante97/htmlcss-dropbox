@@ -3,6 +3,7 @@
 :root {
     /* colors */
     --color-accent: #3984ff;
+    --color-accent-hover: #20509c; 
     --color-black: #1e1919;
     --color-black-8: rgba(30, 25, 25, 0.08);
     --color-darkgrey: #494545;
@@ -119,6 +120,7 @@ p, a {
 }
 a {
     color: var(--color-black);
+    transition: 0.4s ease-out;
 }
 .text-small {
     font-size: var(--font-s);
@@ -151,23 +153,45 @@ button {
     padding: 12px 16px;
     font-size: var(--font-default);
     font-weight: var(--font-w-default);
+
+    transition: 0.4s ease-out;
 }
 button.btn-primary {
     background-color: var(--color-accent);
     color: var(--color-white);
 }
+button.btn-primary:hover {
+    background-color: var(--color-accent-hover);
+    color: var(--color-white);
+}
 button.btn-ghost {
     border: 1px solid var(--color-black);
+}
+button.btn-ghost:hover {
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent-hover);
+    background-color: var(--color-accent-light);
 }
 button.btn-terziary {
     background-color: transparent;
     padding-inline: 0;
+}
+button.btn-terziary:hover {
+    background-color: transparent;
+    padding-inline: 0;
+    color: var(--color-accent);
 }
 
 /* link */
 a.link-accent {
     color: var(--color-accent);
     text-decoration: underline;
+    transition: 0.4s ease-out;
+}
+a.link-accent:hover {
+    color: var(--color-black);
+    text-decoration: underline;
+    transition: 0.4s ease-out;
 }
 
 /* radio input */
