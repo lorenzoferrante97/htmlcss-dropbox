@@ -142,6 +142,9 @@ a {
 .separator-small {
     width: 28%;
 }
+.separator-xs {
+    width: 8%;
+}
 
 /* button */
 button {
@@ -359,4 +362,11 @@ header {
  }
  .footer-menu ul {
     gap: 8px;
+ }
+ #footer-bottom {
+    margin-top: 80px;
+ }
+ #footer-bottom .language-selector {
+    gap: 8px;
+    margin-top: 48px;
  }
