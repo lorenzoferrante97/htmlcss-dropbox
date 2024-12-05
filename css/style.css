@@ -238,7 +238,8 @@ a.link-accent:hover {
 
 /* header */
 header {
-    padding: 8px;
+    padding: 0 12px;
+    min-height: 8vh;
     border-bottom: 1px solid var(--color-lightgrey);
     position: sticky;
     top: 0;
@@ -255,11 +256,23 @@ header {
 }
 
 /* nav links */
-.header-nav ul li {
-    display: inline-block;
-    padding: 4px 8px;
+.header-nav ul {
+    gap: 8px;
+    padding-inline: 8px;
 }
+.header-nav ul li {
+    /* display: inline-block; */
+    display: flex;
+    /* padding: 4px 8px; */
+    padding-inline: 8px;
+    justify-content: center;
+    align-items: center;
 
+    transition: 0.4s ease-out;
+}
+.header-nav ul li:hover {
+    border-bottom: 3px solid var(--color-accent);
+}
 /* hero */
 #hero {
     background-color: var(--color-accent-light);
