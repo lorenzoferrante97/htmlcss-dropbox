@@ -332,3 +332,11 @@ header {
     flex-basis: calc((100% / 3) - 4%);
     gap: 20px;
  }
+
+ /* cta */
+ #cta {
+    max-width: 48%;
+ }
+ #cta > h2 {
+    margin-bottom: 40px;
+ }
