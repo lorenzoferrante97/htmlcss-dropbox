@@ -340,3 +340,11 @@ header {
  #cta > h2 {
     margin-bottom: 40px;
  }
+
+
+ /* footer */
+ footer {
+    background-color: var(--color-black);
+    color: var(--color-lightgrey);
+    margin-top: 140px;
+ }
